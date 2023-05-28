@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+body,
+main {
+  min-width: 100vw;
+  min-height: 100svh;
+}
+
+.mainpageContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: content-box;
+  width: 30%;
+  height: 20%;
+  background-color: #ccc;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.formContainer p {
+  font-family: "Permanent Marker", cursive;
+  font-size: 20px;
+  padding: 0;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.el-input {
+  width: 70%;
+}
+
+.el-icon {
+  margin-right: 12px;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 20%;
+  background-color: #ccc;
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.loggedpageContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 36px;
+}
+
+.el-button {
+  margin-top: 12px;
+}
+
+.statusContainer {
+  width: 50%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  margin-left: 40px;
+}
